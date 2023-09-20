@@ -1,0 +1,12 @@
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[user]
+	name = Urbanus-hub
+	email = urbankollyk@gmail.com
+[safe]
+	directory = %(prefix)///wsl.localhost/Ubuntu/home/hp/Documents/python-basics
+	directory = %(prefix)///wsl.localhost/Ubuntu/home/hp/Documents/python_pandas\n
+	directory = %(prefix)///wsl.localhost/Ubuntu/home/hp/shellcommands/Ubuntu-commands
